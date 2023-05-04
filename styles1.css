@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Pop;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+.age{
+    background-color: white;
+    width: 400px;
+    max-width: 80%;
+    padding: 30px;
+    position: relative;
+    border-bottom-right-radius: 175px;
+}
+input{
+    width: 75px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+input:focus{
+    border: 2px solid var(--Purple);
+}
+.submit-arrow{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 12px;
+    top: 103px;
+}
+.resultage span{
+    font-size: 2.5rem;
+    color: purple;
+    font-style: italic;
+}
+.cheks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--Off-White);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="age">
+    <div class="inputs">
+      <div class="cheks">
+        <span> Day</span>
+        <input type="number" min="1" max="31" step="1" id="day">
+      </div>
+      <div class="cheks">
+        <span> Month</span>
+        <input type="number" min="1" max="12" step="1" id="Month">
+      </div>
+      <div class="cheks">
+        <span> Year</span>
+        <input type="number" min="0" step="1" id="Year">
+      </div>
+    </div>
+    <button class="submit-arrow">
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </button><br>
+    <hr>
+    <div class="resultage">
+      <h1><span class="r1">--</span>years</h1>
+      <h1><span class="r2">--</span>months</h1>
+      <h1><span class="r3">--</span>days</h1>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
